@@ -63,9 +63,10 @@ To github.com:ahgit137/BSF-OCC_Bootcamp.git
 branch 'main' set up to track 'origin/main'.
 As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ 
 
-$ 
-$ 
-$ 
+Remote Repositories:
+$ git remote add origin URLtoRemoteRepo     -> link remote repo to local repo
+$ git branch -M main                        -> renaming 'master' branch to 'main'
+$ git push -u origin main                   -> pushing into origin main branch
 $ 
 $ 
 $ 
