@@ -27,8 +27,42 @@ $ git merge <branch name>          -> merge another branch to the current branch
 $ git branch -d <branch name>      -> delete a branch only if the branch is merged
 $ git branch -D <branch name>      -> delete a branch regardlessly if the branch is merged
 $ 
+$ git checkout <commitID, e.g. 4acd93ddd562eca96bce58c49032c582ac0e174c>   -> go back to earlier commit
 $ 
-$ 
+
+Set up local repo to sync to the GitHub repo:
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ 
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ git remote add origin git@github.com:ahgit137/BSF-OCC_Bootcamp.git
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ git remote -v
+origin  git@github.com:ahgit137/BSF-OCC_Bootcamp.git (fetch)
+origin  git@github.com:ahgit137/BSF-OCC_Bootcamp.git (push)
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ git remote remove origin
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ git remote -v
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ git remote add origin git@github.com:ahgit137/BSF-OCC_Bootcamp.git
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ git remote -v
+origin  git@github.com:ahgit137/BSF-OCC_Bootcamp.git (fetch)
+origin  git@github.com:ahgit137/BSF-OCC_Bootcamp.git (push)
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ 
+
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ git branch -M main
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ git branch -a
+* main
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ 
+
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ 
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ git push -u origin main
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (13/13), 1.39 KiB | 1.39 MiB/s, done.
+Total 13 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To github.com:ahgit137/BSF-OCC_Bootcamp.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+As-MacBook-Pro:BSF-OCC-Bootcamp ahhome$ 
+
 $ 
 $ 
 $ 
