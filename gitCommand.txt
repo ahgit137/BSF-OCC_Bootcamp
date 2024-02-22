@@ -23,6 +23,16 @@ $ git branch -a                -> see branch status
 $ git switch <branch name>     -> switch to a different branch
 $ git checkout <branch name>   -> this is the old way to switch to a branch
 $ 
+$ git merge <branch name>          -> merge another branch to the current branch
+$ git branch -d <branch name>      -> delete a branch only if the branch is merged
+$ git branch -D <branch name>      -> delete a branch regardlessly if the branch is merged
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
 $ 
 $ 
 $ 
