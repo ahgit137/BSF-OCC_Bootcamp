@@ -1,0 +1,19 @@
+Configuration commands:
+$ git config --global user.name <Usre Name>
+$ git config --global user.email <User email>
+$ git config user.name
+$ git config user.email
+
+Creating Repo:
+$ git init       -> initialize local git repo
+$ git add <filename>
+$ git status
+$ git rm --cached gitCommand.txt
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
