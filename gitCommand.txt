@@ -6,11 +6,14 @@ $ git config user.email
 
 Creating Repo:
 $ git init       -> initialize local git repo
+
+Commiting
 $ git add <filename>
 $ git status
-$ git rm --cached gitCommand.txt
-$ 
-$ 
+$ git rm --cached <filename>
+$ git rm --cached <filename> -f   -> to force remove from staging area
+$ git commit -m "Commit message"
+$ git log
 $ 
 $ 
 $ 
