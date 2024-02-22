@@ -14,6 +14,17 @@ $ git rm --cached <filename>
 $ git rm --cached <filename> -f   -> to force remove from staging area
 $ git commit -m "Commit message"
 $ git log
+$ git log --oneline      -> only see one line for each commit history
+$ git reset              -> remove all files from staging area
+
+Branch stuff:
+$ git branch <branch name>     -> create a branch
+$ git branch -a                -> see branch status
+$ git switch <branch name>     -> switch to a different branch
+$ git checkout <branch name>   -> this is the old way to switch to a branch
+$ 
+$ 
+$ 
 $ 
 $ 
 $ 
